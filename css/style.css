@@ -236,7 +236,18 @@ li{
     margin-bottom: 10px;
 }
 
+.titolo{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.titolo h3{
+    font-size: 30px;
+}
+
 .big-container{
+    
+    display: flex;
     width: 1200px;
     margin: 0 auto;
 }
@@ -244,22 +255,151 @@ li{
 .flex{
     width: calc(100/3);
     height: calc(100vw/3);
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .quad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 50%;
 }
 
 .quad img{
     
-    height: 30px;
+    height: 40px;
     
 }
 
 .green{
     background-color: lightgreen;
+}
+
+.marrone{
+    
+    background-color: maroon;
+}
+
+.marrone img{
+    height: 50px;
+    
+}
+
+.light-blue{
+    background-color: lightskyblue;
+}
+
+.red{
+    background-color: red;
+}
+
+.center{
+    height: 60px;
+    padding: 10px;
+}
+
+.flex p{
+    width: 300px;
+}
+
+.gray{
+    background-color: lightgrey;
+}
+
+.dark-red{
+    background-color: red;
+}
+
+
+
+.azur{
+    background-color: lightblue;
+}
+
+.azur img{
+    height: 20px;
+}
+
+.dark-blue{
+    background-color: darkblue;
+}
+
+.dark-blue img{
+    height: 50px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.yellow img{
+    height: 50px;
+}
+
+big{
+    margin-top: 200px;
+    width: 100%;
+    
+}
+
+.container-flex{
+    width: 1200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-flex div h3{
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.container-questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.questions{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 800px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer div{
+    padding: 20px;
+}
+
+
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+
+footer div h4{
+    font-size: 20px;
+    text-align: left;
 }
